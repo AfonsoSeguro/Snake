@@ -15,7 +15,7 @@ function inic(){
 
 function render(){		
 	
-		if(fps % 12 == 0){
+		if(fps % 10 == 0){
 			cobra.mover();
 			if(cobra.cabeca.x == x && cobra.cabeca.y == y){
 				maca = new Maca(cobra.corpo);
